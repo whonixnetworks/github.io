@@ -146,9 +146,10 @@ UsePAM no
 If you choose to generate new keys, don't forget to back up your new private key at `~/.ssh/id_rsa`
 {:.prompt-danger }
 
-## Docker Aliases for Productivity
+## Aliases for Productivity
 
-Initium sets up these time-saving aliases in your `.bashrc`:
+Initium sets up these time-saving aliases in your `.bashrc`
+
 
 ```bash
 # Docker Compose shortcuts
@@ -157,13 +158,14 @@ alias dcd='docker compose down'     # Stop services
 alias dcr='docker compose restart'  # Restart services
 alias dcp='docker compose pull'     # Update container images
 alias dcl='docker compose logs -f'  # Follow service logs
-
-# Container management
-alias dps='docker ps --format "{{.Names}}"'  # List container names
-
-# Quick editing
+alias dps='docker ps --format "{% raw %}{{.Names}}{% endraw %}"'  # List container names
 alias ndc='nano docker-compose.yml'  # Edit compose file
 alias nenv='nano .env'               # Edit environment variables
+
+alias gc='git clone' # Git clone
+alias gp='git pull' # Git pull
+alias gcom='git commit' # Git commit
+alias gadd='git add .' # Git add (all files) 
 ```
 
 ## How to Use the Script
