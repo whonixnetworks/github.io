@@ -1,19 +1,17 @@
+Perfect — here’s your corrected and fully formatted Jekyll blog template, broken into clean code blocks for each section and matching your preferred layout exactly.
+Each block can be copied individually for reuse 👇
+
+
 ---
 
-# Jekyll Chirpy Post Template Reference
+🧩 Front Matter
 
 ---
-
-## Frontmatter
-
-```yaml
----
-title: Your Post Title
+title: Post Title
 description: >
-  Multi-line description for SEO.
-  Use `>` for multi-line.
+  Brief description for SEO
 date: YYYY-MM-DD
-categories: [Primary, Secondary]
+categories: [Main, Sub]
 tags: [tag1, tag2, tag3]
 pin: false
 ---
@@ -21,234 +19,197 @@ pin: false
 
 ---
 
-Hero Image
+🖼️ Hero Image
 
-![Hero Image](/assets/img/sample.jpg){: width="972" height="589" .w-50 .right}
+![Hero Image](/assets/img/your-hero-image.jpg){: width="972" height="589" .w-50 .right}
 
-
----
-
-Custom Intro Section
-
-Write an engaging intro paragraph that summarizes the post’s value and draws readers in.
+_Title: Short caption_
 
 
 ---
 
-Headers
+🪄 Introduction
 
-Centered H1 Title
+## Introduction
 
-Regular H2 Section
-
-H3 Subsection
-
-Bold Inline Header <u>Underlined Label</u>
+Write an engaging opening paragraph that captures attention.  
+Explain what the reader will learn and why it matters.
 
 
 ---
 
-Lists in Blockquotes
+📘 Headings & Structure
 
-> Category Title
-
-Feature name: Description text
-
-Another feature: More details
-
-Third item: Additional info
-
-
-
-
-Alternative Style:
-
-Item one
-
-Item two
-
+# Main Title of the Post
+## Section Heading
+### Subsection Heading
+**Bold Inline Header** <u>Optional Underlined Label</u>
 
 
 ---
 
-Code Blocks
+💡 Problem Statement
 
-Standard code:
+> **Problem Statement**
+> Describe the main issue, topic, or challenge being addressed in this post.  
+> Use this section to clarify the context and why it’s relevant.
 
-#!/bin/bash
-command here
 
-With filename:
+---
 
-print("Hello World")
+📋 Key Points
 
-{: file="script.py"}
+## Key Points
 
-No line numbers:
+- Point one: Explain briefly  
+- Point two: Add supporting detail  
+- Point three: Include examples or data
 
-simple command
+
+---
+
+🧰 Shell Command Example
+
+# Example Shell Command
+sudo apt update && sudo apt install your-package
+
+
+---
+
+🐍 Python Code Example
+
+# Example Python snippet
+def example_function():
+    print("Replace this with your actual code sample")
+
+{: file="example.py"}
+
+
+---
+
+💻 Minimal Code Example
+
+echo "This is a lightweight example"
 
 {: .nolineno}
 
-Inline filepath:
-/path/to/file{: .filepath}
 
-Display Liquid/Template Code:
+---
 
-{% raw %}{{ .Variable }}{% endraw %}
+📁 File Path Example
+
+`/path/to/important/file`{: .filepath}
 
 
 ---
 
-Prompt Boxes
+💧 Safe Liquid Example
 
-> WARNING: Warning message here.
+{% raw %}{{ site.url }}{% endraw %}
+
+
+---
+
+⚠️ Prompt Boxes
+
+> WARNING: Describe a potential risk, limitation, or issue users should be aware of.
 {:.prompt-warning}
 
-
-
-> DANGER: Critical danger message.
+> DANGER: Mention any critical operation or irreversible action.
 {:.prompt-danger}
 
-
-
-> TIP: Helpful tip or call to action.
+> TIP: Provide a helpful shortcut, alternative command, or optimization idea.
 {:.prompt-tip}
 
-
-
-> INFO: Informational note.
+> INFO: Add context, extra notes, or background information relevant to this section.
 {:.prompt-info}
 
 
+---
+
+🖼️ Example Supporting Image
+
+![Example Image](/assets/img/example.jpg){: width="800" height="400" .w-50 .right}
+
+_Add supporting visuals, screenshots, or diagrams here._
+
+Position: `.left` `.right` `.normal`  
+Size: `.w-50` `.w-75`  
+Effects: `.shadow` `.light` `.dark`
 
 
 ---
 
-Image Classes
+✍️ Text Formatting Reference
 
-Example:
-
-![Example Image](/assets/img/example.png){: width="800" height="400" .w-50 .right}
-
-Position: .left .right .normal
-Size: .w-50 .w-75
-Effects: .shadow .light .dark
-
-
----
-
-Text Formatting
-
-Bold text – emphasis
-
-Italic text – definitions
-
-<u>Underlined</u> – section labels
-
-inline code – commands/files
-
-Link – standard
-
-External Link{:target="_blank"} – opens new tab
-
+**Bold text** – for emphasis  
+*Italic text* – for definitions or quotes  
+<u>Underlined</u> – for labels  
+`inline code` – for commands or file paths  
+[Link](#) – for internal links  
+[External Link](#){:target="_blank"} – for new tab links
 
 
 ---
 
-Standard Section Pattern
+⚙️ Technical Details
 
-Section Header
+## Technical Details
 
-Intro paragraph.
+Briefly describe how your solution or approach works behind the scenes.
 
-Subsection Label
+### Implementation Steps
 
-Point one: Description
+1. Explain each major step clearly  
+2. Include any commands or configuration details  
+3. Mention dependencies or prerequisites
 
-Point two: More details
+# Example: Install and configure your software
+sudo apt install example-package
 
-
-Explanation paragraph.
-
-# Code example
-command --flag
-
-> TIP: Related tip here.
+> TIP: Add optional notes or efficiency suggestions here.
 {:.prompt-tip}
 
 
+---
+
+🔍 Comparison Section
+
+## Comparison
+
+**vs Alternative A**  
+- Their method: Explain their approach  
+- Your method: Explain how yours differs or improves  
+
+**vs Alternative B**  
+- Their feature: Describe limitation  
+- Your feature: Describe advantage
 
 
 ---
 
-Comparison Layout
+✳️ Divider Options
 
-vs Alternative A
-
-Their approach: Description
-
-Your approach: Counter-description
-
-
-vs Alternative B
-
-Their feature: Explanation
-
-Your feature: Your explanation
-
+---
+or
+***
 
 
 ---
 
-Horizontal Rules
+🏁 Final Thoughts
 
-Use --- or *** to separate sections visually.
+## Final Thoughts
 
+Summarize the post in one or two paragraphs.  
+Reinforce key takeaways or benefits.  
+Encourage readers to take action or try your solution.
 
----
-
-Final Structure
-
-1. Frontmatter
-
-
-2. Hero image
-
-
-3. Intro section (flexbox + centered text)
-
-
-4. Problem Statement
-
-
-5. Problem explanation + lists
-
-
-6. What Solution Does
-
-
-7. Features in blockquote lists
-
-
-8. Technical Details
-
-
-9. Code examples + prompt boxes
-
-
-10. Installation (prerequisites + commands)
-
-
-11. Usage (step-by-step with code)
-
-
-12. Troubleshooting (common issues + fixes)
-
-
-13. Final Thoughts (summary paragraph)
-
-
-
-> TIP: Call to action.
+> TIP: Add a call to action here — e.g.,  
+> “Try this method today and share your results in the comments!”
 {:.prompt-tip}
+
+
+---
+
+Would you like me to make a ready-to-use _template.md file (so you can just copy it into _posts and edit each time)?
