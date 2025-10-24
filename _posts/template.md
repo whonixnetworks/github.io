@@ -1,11 +1,5 @@
-Perfect — here’s your corrected and fully formatted Jekyll blog template, broken into clean code blocks for each section and matching your preferred layout exactly.
-Each block can be copied individually for reuse 👇
-
-
----
-
-🧩 Front Matter
-
+Front Matter
+```yaml
 ---
 title: Post Title
 description: >
@@ -15,7 +9,7 @@ categories: [Main, Sub]
 tags: [tag1, tag2, tag3]
 pin: false
 ---
-
+```
 
 ---
 
