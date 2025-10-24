@@ -1,8 +1,3 @@
-Here’s your Jekyll Chirpy Post Template Reference properly formatted as valid Markdown — ready to drop into VS Code or _posts/post-template.md for reference and live preview.
-
-All syntax (front matter, headers, code blocks, prompts, etc.) is correctly formatted for Jekyll + Chirpy.
-
-
 ---
 
 # Jekyll Chirpy Post Template Reference
